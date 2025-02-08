@@ -6,15 +6,18 @@ import "./globals.css";
 
 const workSans = Work_Sans({
   variable: "--font-work-sans",
+  subsets: ['latin']
 });
 
 const oranienbaum = Oranienbaum({
   variable: "--font-oraniembaum-sans",
   weight: "400",
+  subsets: ['latin']
 });
 
 const montaguSlab = Montagu_Slab({
   variable: "--font-montagu-slab-sans",
+  subsets: ['latin']
 });
 
 export const metadata: Metadata = {
