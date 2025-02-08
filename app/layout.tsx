@@ -1,15 +1,20 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Work_Sans, Oranienbaum, Montagu_Slab } from "next/font/google";
+
+import "bootstrap-icons/font/bootstrap-icons.css";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const workSans = Work_Sans({
+  variable: "--font-work-sans",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const oranienbaum = Oranienbaum({
+  variable: "--font-oraniembaum-sans",
+  weight: "400",
+});
+
+const montaguSlab = Montagu_Slab({
+  variable: "--font-montagu-slab-sans",
 });
 
 export const metadata: Metadata = {
@@ -25,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${workSans.variable} ${oranienbaum.variable} ${montaguSlab.variable} antialiased`}
       >
         {children}
       </body>
