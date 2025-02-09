@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${workSans.variable} ${oranienbaum.variable} ${montaguSlab.variable} antialiased`}
+        className={`${workSans.variable} ${oranienbaum.variable} ${montaguSlab.variable} antialiased dark`}
       >
         {children}
       </body>
