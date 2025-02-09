@@ -18,10 +18,16 @@ export default function Home() {
             <i className="bi bi-chevron-double-down absolute -bottom-20 text-2xl"></i>
           </div>
         </section>
-        <section className="flex flex-col gap-8 row-start-2 justify-items-center items-center mt-40 sm:items-start">
-          <div className="flex gap-4 items-center flex-col">
-            <h2 className="text-gray-200 text-center tracking-tighter display-2 mt-20">Stats</h2>
-          </div>
+        <section className="mt-40" id="about">
+            <h2 className="text-gray-200 text-center tracking-tighter display-2 my-20">👋 Hi!</h2>
+            <div className="w-3/5 mx-auto text-xl">
+              <p className="">I'm Ji, a fullstack developer at <a href="https://brainboxlabs.com" target="_blank">Brain Box Labs</a> in Toronto 🇨🇦 .</p>
+              <p className="">I graduated with a BSc degree in <strong>Mechanical Engineering</strong> from  Ontario Tech University. After working as a Mechanical Engineer for 2 years, I decided to transition into software because all the cool things happening on this side so I did a Interactive Media Design and Web Development program from Durham College.</p>
+              <p className="">My tech stack at work is <strong>Vue, Nuxt, Typescript, Inertia, Vite</strong> for front-end and <strong>Laravel, MySQL</strong> for backend. While for my personal projects, I tend to use <strong>Next.js, Go, Ruby on Rails, Bun, Docker and Postgres</strong> or any cool stuff (<a href="https://turso.tech" target="_blank">Turso</a> is looking pretty interesting now 🤔) that I don't get to use at work.</p>
+              <p className="">Other than the regular web dev things, I also dabble into a lof of AI stuff and got an <strong>Artificial Intelligence</strong> certificate from University of Toronto. In my free time, I usually play with <strong>Neural Nets, Ollama, HuggingFace, PyTorch, AI agents and Evals.</strong></p>
+              <p className="">My dev setup is <strong>Kitty Terminal, Tmux, Neovim, Fish shell.</strong></p>
+              <p className="">My life outside of coding tho (I do have one lol), you generally can catch me playing <strong>basketball 🏀</strong> with the boys. I also play <strong>badminton 🏸</strong> on and off. In the summer/fall, I do a lot of <strong>hiking</strong> as well in the cool national parks nearby. And also a big fan of <strong>travelling</strong>, been to 20+ countries at this point.</p>
+            </div>
         </section>
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">

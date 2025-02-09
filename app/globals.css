@@ -31,3 +31,22 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 7rem;
   line-height: 8rem;
 }
+
+.display-2{
+  font-size: 3rem;
+  line-height: 5rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
