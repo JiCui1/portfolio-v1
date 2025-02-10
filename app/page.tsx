@@ -63,7 +63,8 @@ export default function Home() {
                 <p>Zetique is a bookkeeping company for small businesses. There&apos;s an internal custom task management application that they use. Prior to this task management application, Zetique team mostly managed their tasks with Excel and this task management system automated 90% of the work that they do manually with Excel and hugely increased their efficiency. </p>
                 <p>My work on zetique task management application actively involves: </p>
                 <ul className="card-list">
-                  <li className="list-disc">Task Management and Generation System</li>
+                  <li className="list-disc">Transition to Event-Driven Architecture</li>
+                  <li className="list-disc">Database Query Optimization</li>
                   <li className="list-disc">Documents Manager (Basically Google Drive MVP)</li>
                   <li className="list-disc">Time Tracking System (Basically Harvest MVP)</li>
                 </ul>
@@ -79,7 +80,8 @@ export default function Home() {
                 <p>My work on midway actively involves: </p>
                 <ul className="card-list">
                   <li className="list-disc">API integration and management for Jira, Donedone, Basecamp, Sentry</li>
-                  <li className="list-disc">Cache system</li>
+                  <li className="list-disc">API Security</li>
+                  <li className="list-disc">Caching Strategy</li>
                 </ul>
               </CardContent>
             </Card>
