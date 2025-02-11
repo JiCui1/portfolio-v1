@@ -46,7 +46,7 @@ export default function Home() {
                 <p>My work on brokerlink actively involves: </p>
                 <ul className="card-list">
                   <li className="list-disc">Custom Content Management System(CMS)</li>
-                  <li className="list-disc">Online Quoting Tool and Quoting Algorithms</li>
+                  <li className="list-disc">Online Quoting Tool and Quoting Algorithms intergration with Applied Rating System (ARS)</li>
                   <li className="list-disc">Moneris Payment System</li>
                   <li className="list-disc">UI Components Library</li>
                   <li className="list-disc">Security Vulnerbility Patches</li>
