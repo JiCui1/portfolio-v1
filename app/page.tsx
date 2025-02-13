@@ -35,7 +35,7 @@ export default function Home() {
               <p className="">My life outside of coding tho (I do have one lol), you generally can catch me playing <strong>basketball 🏀</strong> with the boys. I also play <strong>badminton 🏸</strong> on and off. In the summer/fall, I do a lot of <strong>hiking</strong> as well in the cool national parks nearby. And also a big fan of <strong>travelling</strong>, been to 20+ countries at this point.</p>
             </div>
         </section>
-        <section className="w-3/5" id="work">
+        <section className="w-3/5 hidden" id="work">
             <h2 className="text-gray-200 text-center display-2 mt-20 mb-10">Work Projects</h2>
             <Card>
               <CardHeader>
