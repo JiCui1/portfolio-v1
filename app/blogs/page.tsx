@@ -19,7 +19,7 @@ export default function Blogs() {
               <CardDescription>Published Feb 22, 2025 by Jiahua Cui</CardDescription>
             </CardHeader>
             <CardContent>
-              <p>Read about how to use the <span className="font-extrabold">Illuminate\Console\Prohibitable</span> trait to prevent destructive commands from running in your Laravel application. We'll also look at how to prevent your own custom Artisan commands from running using this trait.</p>
+              <p>Read about how to use the <span className="font-extrabold">Illuminate\Console\Prohibitable</span> trait to prevent destructive commands from running in your Laravel application. We&apos;ll also look at how to prevent your own custom Artisan commands from running using this trait.</p>
             </CardContent>
             <CardFooter>
               <a href="#" className="hover:text-gray-300 duration-300">Read More <i className="bi bi-arrow-right"></i></a>
@@ -32,7 +32,7 @@ export default function Blogs() {
               <CardDescription>Published Feb 22, 2025 by Jiahua Cui</CardDescription>
             </CardHeader>
             <CardContent>
-              <p>Want to deploy your Laravel project on Forge with real-time WebSockets using Reverb? In this step-by-step tutorial, we’ll walk you through setting up Laravel Forge, configuring your server, and integrating Reverb for real-time communication. Whether you're building a chat app, notifications system, or live updates, this guide will help you get everything running smoothly.</p>
+              <p>Want to deploy your Laravel project on Forge with real-time WebSockets using Reverb? In this step-by-step tutorial, we’ll walk you through setting up Laravel Forge, configuring your server, and integrating Reverb for real-time communication. Whether youe&apos;re building a chat app, notifications system, or live updates, this guide will help you get everything running smoothly.</p>
             </CardContent>
             <CardFooter>
               <a href="#" className="hover:text-gray-300 duration-300">Read More <i className="bi bi-arrow-right"></i></a>
