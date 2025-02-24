@@ -1,6 +1,6 @@
 type tParams = Promise<{ slug: string[] }>;
 
-export default async function  BlogSlugPage(props: { params: tParams }) {
+export default async function BlogSlugPage(props: { params: tParams }) {
   // Suspense(Loading) component test 
   // await new Promise((resolve) => {
   //   setTimeout(() => resolve(), 2000);

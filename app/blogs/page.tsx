@@ -15,7 +15,7 @@ export default function Blogs() {
         <section className="blogs-container">
           <Card className="hover:border-gray-300 duration-500">
             <CardHeader>
-              <CardTitle className="text-6xl"><a href="#" className="no-underline hover:text-gray-300 duration-300">Preventing Destructive Commands from Running in Laravel</a></CardTitle>
+              <CardTitle className="text-6xl"><a href="#" className="text-pretty no-underline hover:text-gray-300 duration-300">Preventing Destructive Commands from Running in Laravel</a></CardTitle>
               <CardDescription>Published Feb 22, 2025 by Jiahua Cui</CardDescription>
             </CardHeader>
             <CardContent>
@@ -28,7 +28,7 @@ export default function Blogs() {
 
           <Card className="hover:border-gray-300 duration-500">
             <CardHeader>
-              <CardTitle className="text-6xl"><a href="#" className="no-underline hover:text-gray-300 duration-300">Deploying a Laravel Project on Forge with Reverb WebSockets | Real-Time Setup Tutorial</a></CardTitle>
+              <CardTitle className="text-6xl"><a href="#" className="text-pretty no-underline hover:text-gray-300 duration-300">Deploying a Laravel Project on Forge with Reverb WebSockets | Real-Time Setup Tutorial</a></CardTitle>
               <CardDescription>Published Feb 22, 2025 by Jiahua Cui</CardDescription>
             </CardHeader>
             <CardContent>
@@ -41,7 +41,7 @@ export default function Blogs() {
 
           <Card className="hover:border-gray-300 duration-500">
             <CardHeader>
-              <CardTitle className="text-6xl"><a href="#" className="no-underline hover:text-gray-300 duration-300">Five Practical Tips to Improve Search in Laravel Apps With Typesense</a></CardTitle>
+              <CardTitle className="text-6xl"><a href="#" className="text-pretty no-underline hover:text-gray-300 duration-300">Five Practical Tips to Improve Search in Laravel Apps With Typesense</a></CardTitle>
               <CardDescription>Published Feb 22, 2025 by Jiahua Cui</CardDescription>
             </CardHeader>
             <CardContent>
